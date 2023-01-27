@@ -1,13 +1,6 @@
 .headerBox{
     background-color: #222;
     width: 80%;
-    color: whitesmoke;
     overflow: hidden;
-}
-
-.text{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-decoration: none;
 }

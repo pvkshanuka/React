@@ -1,6 +1,6 @@
 .item{
     height: 100%;
-    padding: 10px 5px;
+    padding: 10px 25px;
     float: left;
     text-align: center;
     border-right: 2px white solid;
@@ -8,10 +8,21 @@
     border-bottom-right-radius: 8px;
     text-decoration: none;
     cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .item:hover{
+    padding-right: 22px;
     border-right: 5px white solid;
     transition-duration: 100ms;
     background-color: #666;
 }
+
+.active{
+    background-color:#999;
+    color: #222;
+}
+
+

@@ -3,8 +3,6 @@ import "./HeaderItem.css";
 
 export default function HeaderItem(props) {
   return (
-    <a className="item">
-      <span className="text">{props.title} {props.no}</span>
-    </a>
+      <div className="">{props.title} {props.no}</div>
   );
 }

@@ -1,0 +1,17 @@
+.item{
+    height: 100%;
+    padding: 10px 5px;
+    float: left;
+    text-align: center;
+    border-right: 2px white solid;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item:hover{
+    border-right: 5px white solid;
+    transition-duration: 100ms;
+    background-color: #666;
+}

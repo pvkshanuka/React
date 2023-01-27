@@ -7,7 +7,9 @@ export default function Home() {
     <div>
       <Header/>
       <h1>Home Page</h1>
-      <Content/>
+      <Content name="Kusal" content="name and content are parent props. The href attribute is required for an anchor to be keyboard accessible. The href attribute is required for an anchor to be keyboard accessible. The href attribute is required for an anchor to be keyboard accessible. The href attribute is required for an anchor to be keyboard accessible. The href attribute is required for an anchor to be keyboard accessible."><a href='#'>Click here (This is a child prop)</a></Content>
+      <Content name="Shanuka" content="name and content are parent props. The href attribute is required for an anchor to be keyboard accessible."><a href='#'>Click here (This is a child prop)</a></Content>
+      <Content name="Dinesh" content="name and content are parent props. The href attribute is required for an anchor to be keyboard accessible."><a href='#'>Click here (This is a child prop)</a></Content>
     </div>
   )
 }

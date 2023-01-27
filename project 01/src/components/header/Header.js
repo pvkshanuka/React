@@ -1,13 +1,15 @@
 import React from "react";
-import "./header.css";
+import HeaderItem from "../headerItem/HeaderItem";
+import "./Header.css";
 
 export default function Header() {
   return (
     <div>
       <div className="headerBox">
-        <div className="item">
-          <span className="text">This is the header</span>
-        </div>
+        <HeaderItem title="Item" no="01"/>
+        <HeaderItem title="Item" no="02"/>
+        <HeaderItem title="Item" no="03"/>
+        <HeaderItem title="Item" no="04"/>
       </div>
     </div>
   );

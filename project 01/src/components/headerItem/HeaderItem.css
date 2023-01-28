@@ -16,7 +16,6 @@
 .item:hover{
     padding-right: 22px;
     border-right: 5px white solid;
-    transition-duration: 100ms;
     background-color: #666;
 }
 

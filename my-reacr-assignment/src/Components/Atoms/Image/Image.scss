@@ -1,0 +1,14 @@
+.image {
+    display: flex;
+    align-items: center;
+
+    &.sm{
+        width: 40px;
+    }
+    &.md{
+        width: 60px;
+    }
+    &.lg{
+        width: 80px;
+    }
+}

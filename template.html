@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    body {
+      background-color: gray;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nav_bar {
+      width: 100%;
+      display: flex;
+      background-color: white;
+      padding: 50px 50px 50px 130px;
+    }
+
+    .nav_bar .items {
+      align-items: center;
+      /* position: relative; */
+      display: flex;
+      padding: 20px 60px;
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      font-size: 28px;
+    }
+
+    .nav_bar .items li {
+      margin-right: 130px;
+      display: inline;
+      float: left;
+    }
+
+    .nav_bar .items li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 0px;
+      text-decoration: none;
+      color: black;
+      border-bottom: 3px solid red;
+    }
+
+    .nav_bar .user {
+      display: flex;
+      align-items: center;
+      color: gray;
+      float: right;
+      font-size: 24px;
+    }
+
+    .nav_bar .user p{
+        margin-right: 30px;
+    }
+
+    .nav_bar .user img{
+        width: 80px;
+    }
+
+
+  </style>
+
+  <body>
+    <div>
+      <div class="nav_bar">
+        <ul class="items">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Organizations</a></li>
+          <li><a href="#">Users</a></li>
+        </ul>
+        <div class="user">
+          <p>Leo Blair</p>
+          <img src="images.jfif" alt="img" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

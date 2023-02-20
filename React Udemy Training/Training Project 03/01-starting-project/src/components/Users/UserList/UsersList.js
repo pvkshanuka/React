@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Card from "../../UI/Card/Card";
 
 import classes from "./UsersList.module.css";
@@ -5,13 +6,17 @@ import classes from "./UsersList.module.css";
 const UserList = (props) => {
   const users = props.users;
 
+  const onDeleteHandler = (event) =>{
+    props.onDeleteUser(event.target.id);
+  }
+
   return (
-    <div>
+    <Fragment>
       <Card className={classes.users}>
         {users.length > 0 ? (
           <ul>
             {props.users.map((user) => (
-              <li key={user.id}>
+              <li key={user.id} id={user.id} onClick={onDeleteHandler}>
                 {user.name} ({user.age} years old)
               </li>
             ))}
@@ -20,7 +25,7 @@ const UserList = (props) => {
           <p>No data to display</p>
         )}
       </Card>
-    </div>
+    </Fragment>
   );
 };
 
